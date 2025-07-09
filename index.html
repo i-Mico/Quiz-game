@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App with Level Completion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <h1>Welcome to the Quiz App!</h1>
+            <p>Test your knowledge across ten challenging levels.</p>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Question Screen -->
+        <div id="question-screen" class="screen hidden">
+            <div id="header-container">
+                <h2 id="level-indicator">Level 1</h2>
+                <div id="timer-container">
+                    <span id="timer-text">Time left:</span>
+                    <span id="time-left">30</span>
+                </div>
+            </div>
+            <p id="question-counter"></p>
+            <h3 id="question"></h3>
+            <div id="options-container"></div>
+            <div id="feedback-area">
+                <p id="feedback-message"></p>
+                <div id="correct-answer-display" class="hidden">Correct Answer: <span id="correct-answer-value"></span></div>
+            </div>
+            <button id="next-btn" class="hidden">Next Question</button>
+            <button id="next-level-btn" class="hidden">Proceed to Next Level</button>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen hidden">
+            <h2>Quiz Over!</h2>
+            <p id="final-score-message"></p>
+            <p id="level-reached-message"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+
+        <!-- Level Completion Popup -->
+        <div id="level-complete-popup" class="popup hidden">
+            <div class="popup-content">
+                <div class="decoration">
+                    <div class="flower"></div>
+                    <div class="flower"></div>
+                    <div class="flower"></div>
+                </div>
+                <h2>Level Complete!</h2>
+                <p id="level-complete-message"></p>
+                <p id="level-score-display"></p>
+                <button id="continue-btn">Continue to Next Level</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
