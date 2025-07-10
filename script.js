@@ -282,7 +282,7 @@ const quizLevels = [
             options: ["206", "250", "180", "300"],
             answer: "206",
         }
-    ]
+    ],
      // Level +: Bonus Question
  [
         {
@@ -435,7 +435,7 @@ const quizLevels = [
         options: ["Excalibur", "Durandal", "Joyeuse", "Gram"],
         answer: "Excalibur"
     }
-]
+],
 // Level 16: Nigerian History
 [
     {
@@ -603,7 +603,7 @@ const quizLevels = [
         options: ["Bamako", "Dakar", "Conakry", "Abidjan"],
         answer: "Dakar"
     }
-]
+],
 // Level 22: Country Flags
 [
     {
@@ -827,7 +827,7 @@ const quizLevels = [
         options: ["Voyager 1", "Pioneer 10", "New Horizons", "Voyager 2"],
         answer: "Voyager 1"
     }
-]
+],
 
     // Level 30: Sports Legends (Bonus Round)
     [
@@ -861,7 +861,7 @@ const quizLevels = [
             answer: "Lionel Messi",
             fact: "Messi is the most decorated footballer in history with 44 trophies and the only player to win Golden Ball at two World Cups"
         }
-    ]
+    ],
     // Level 31: African History (Challenging Periods)
 [
     {
@@ -1445,7 +1445,7 @@ const quizLevels = [
         answer: "Lionel Messi",
         fact: "Messi scored twice in the final including the decisive goal in extra time"
     }
-]
+],
 
 // Level 51: Ancient Civilizations
 [
